@@ -1560,3 +1560,11 @@ button {
     }
 
 }
+
+#continueButton {
+    position: relative;
+    z-index: 9999;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
