@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Something Special For You ♡</title>
+
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:wght@400;500;600&family=Parisienne&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- CSS -->
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     MUSIC
+===================================================== -->
+
+<audio
+    id="bgMusic"
+    loop
+    autoplay
+    playsinline
+>
+
+    <source
+        src="assets/music.mp3"
+        type="audio/mpeg"
+    >
+
+</audio>
+
+
+
+<!-- =====================================================
+     SCREEN 1
+     OPENING / ENVELOPE
+===================================================== -->
+
+<section
+    id="accessScreen"
+    class="screen active"
+>
+
+    <div class="opening-container">
+
+
+        <div class="small-title">
+            A LITTLE SURPRISE
+        </div>
+
+
+        <h1 class="opening-title">
+            Something<br>
+            Special
+        </h1>
+
+
+        <div class="script-subtitle">
+            is waiting for you ♡
+        </div>
+
+
+        <p class="opening-text">
+            I made something special<br>
+            just for you.
+        </p>
+
+
+
+        <!-- ENVELOPE -->
+
+        <div
+            id="envelopeButton"
+            class="opening-envelope"
+        >
+
+            <div class="envelope-body">
+
+                <div class="envelope-flap"></div>
+
+                <div class="envelope-fold-left"></div>
+
+                <div class="envelope-fold-right"></div>
+
+
+                <!-- SEGEL -->
+
+                <button
+                    id="waxSeal"
+                    class="wax-seal"
+                    aria-label="Open gift"
+                >
+                    ♥
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="click-seal">
+            Click the seal ♡
+        </div>
+
+
+        <div class="open-text">
+            OPEN MY GIFT
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     SCREEN 2
+     COUNTDOWN
+===================================================== -->
+
+<section
+    id="countdownScreen"
+    class="screen"
+>
+
+    <div class="center-content">
+
+
+        <div class="small-title">
+            COUNTING DOWN TO YOUR DAY
+        </div>
+
+
+        <h2 class="serif-title">
+            Your Special Day
+        </h2>
+
+
+        <div class="script-text">
+            is almost here...
+        </div>
+
+
+        <div class="countdown">
+
+
+            <div class="time-box">
+
+                <span id="days">
+                    00
+                </span>
+
+                <small>
+                    DAYS
+                </small>
+
+            </div>
+
+
+            <div class="time-box">
+
+                <span id="hours">
+                    00
+                </span>
+
+                <small>
+                    HOURS
+                </small>
+
+            </div>
+
+
+            <div class="time-box">
+
+                <span id="minutes">
+                    00
+                </span>
+
+                <small>
+                    MINUTES
+                </small>
+
+            </div>
+
+
+            <div class="time-box">
+
+                <span id="seconds">
+                    00
+                </span>
+
+                <small>
+                    SECONDS
+                </small>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- TESTING -->
+
+        <button
+            id="testNextButton"
+            class="next-button"
+        >
+            NEXT →
+        </button>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     SCREEN 3
+     HAPPY BIRTHDAY
+===================================================== -->
+
+<section
+    id="birthdayScreen"
+    class="screen"
+>
+
+    <div class="center-content birthday-content">
+
+
+        <div class="small-title">
+            A DAY MADE JUST FOR YOU
+        </div>
+
+
+        <h1 class="birthday-title">
+            Happy<br>
+            Birthday
+        </h1>
+
+
+        <div class="script-text">
+            my favorite person ♡
+        </div>
+
+
+        <p class="birthday-text">
+            Today is all about celebrating<br>
+            the wonderful person you are.
+        </p>
+
+
+        <div class="birthday-date">
+            20 · 10 · 2026
+        </div>
+
+
+        <button
+            id="continueButton"
+            class="main-button"
+        >
+            Click Here ♡
+        </button>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     SCREEN 4
+     MAIN MENU
+===================================================== -->
+
+<section
+    id="menuScreen"
+    class="screen"
+>
+
+    <div class="menu-container">
+
+
+        <div class="small-title">
+            SOMETHING SPECIAL
+        </div>
+
+
+        <h1 class="menu-title">
+            These are for you
+        </h1>
+
+
+        <div class="heart-symbol">
+            ♡
+        </div>
+
+
+        <p class="menu-description">
+            Pick one, and let the surprise unfold.<br>
+            Each one holds a special part of my heart.
+        </p>
+
+
+
+        <!-- =================================================
+             THREE FEATURES
+        ================================================== -->
+
+        <div class="features">
+
+
+            <!-- MESSAGE -->
+
+            <button
+                class="feature-card"
+                data-page="messagePage"
+            >
+
+                <div class="feature-visual">
+
+                    <div class="small-envelope">
+
+                        <div class="small-envelope-flap">
+                        </div>
+
+                        <div class="small-wax">
+                            ♥
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <h2>
+                    Message
+                </h2>
+
+
+                <div class="feature-line">
+                    <span>♥</span>
+                </div>
+
+
+                <p>
+                    A letter from me<br>
+                    to you
+                </p>
+
+
+            </button>
+
+
+
+            <!-- FOR YOU -->
+
+            <button
+                class="feature-card"
+                data-page="flowerPage"
+            >
+
+                <div class="feature-visual">
+
+                    <div class="mini-bouquet">
+
+                        <div class="mini-flower flower-a">
+                            🌹
+                        </div>
+
+                        <div class="mini-flower flower-b">
+                            🌷
+                        </div>
+
+                        <div class="mini-flower flower-c">
+                            🌹
+                        </div>
+
+                        <div class="mini-flower flower-d">
+                            🌷
+                        </div>
+
+                        <div class="paper-bouquet">
+                            ♥ ♥ ♥
+                        </div>
+
+                        <div class="bouquet-bow">
+                            🎀
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <h2>
+                    For You
+                </h2>
+
+
+                <div class="feature-line">
+                    <span>♥</span>
+                </div>
+
+
+                <p>
+                    A little something<br>
+                    for your special day
+                </p>
+
+
+            </button>
+
+
+
+            <!-- INVITATION -->
+
+            <button
+                class="feature-card"
+                data-page="invitationPage"
+            >
+
+                <div class="feature-visual">
+
+                    <div class="mini-invitation">
+
+                        <div class="mini-ribbon">
+                        </div>
+
+                        <div class="mini-invitation-inner">
+
+                            <span>
+                                ♥
+                            </span>
+
+                            <strong>
+                                SPECIAL<br>
+                                INVITATION
+                            </strong>
+
+                            <small>
+                                Just For You
+                            </small>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <h2>
+                    Invitation
+                </h2>
+
+
+                <div class="feature-line">
+                    <span>♥</span>
+                </div>
+
+
+                <p>
+                    Let's make<br>
+                    beautiful memories
+                </p>
+
+
+            </button>
+
+
+        </div>
+
+
+
+        <div class="bottom-message">
+
+            You deserve all the happiness<br>
+            in the world ♡
+
+        </div>
+
+
+        <div class="birthday-footer">
+
+            <span>
+                HAPPY BIRTHDAY
+            </span>
+
+            <strong>
+                20 · 10 · 2026
+            </strong>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     MESSAGE PAGE
+===================================================== -->
+
+<section
+    id="messagePage"
+    class="detail-screen"
+>
+
+    <button class="back-button">
+        ←
+    </button>
+
+
+    <div class="detail-container">
+
+
+        <div class="small-title">
+            MESSAGE
+        </div>
+
+
+        <h1>
+            A Message<br>
+            <span>For You</span>
+        </h1>
+
+
+        <div class="large-envelope">
+            💌
+        </div>
+
+
+        <div class="letter-box">
+
+
+            <h2>
+                To My Favorite Person,
+            </h2>
+
+
+            <p>
+                Selamat datang di usia 
+                kepala dua sayangku.
+            </p>
+
+
+            <p>
+                Terima kasih karena sudah 
+                bertahan sejauh ini sayang.
+                Terima kasih karena selalu
+                hebat dan kuat sayangku.
+            </p>
+
+
+            <p>
+                Terima kasih telah memilihku
+                di antara banyak wanita lain.
+                Terima kasih karena selalu 
+                mengusahakanku sayang. 
+            </p>
+
+
+            <p>
+                Maaf karena selama ini
+                yola menyusahkan mas hari,
+                yola buat mas hari cape.
+                maaf ya sayang...
+                maaf kalau ada penyesalan
+                karena memilih yola...
+            </p>
+
+            <p>
+                Semoga di usia yang sekarang,
+                jalan mas hari makin dipermudah,
+                diberi kelancaran dan kesehatan.
+                seindah apa ya di depan sayang??
+                yola tau semua perjuangan mas hari 
+                sampai mas hari bisa di titik ini.
+                yola adalah orang yang akan selalu
+                bangga dengan pencapaian pencapaian
+                baru mas hari. yola juga orang yang akan selalu peluk 
+                kekurangan mas hari. 
+            </p>
+
+            <p>
+                yola dengan senang hati nemenin mas hari
+                beproses, langkah langkah kecil yang yola 
+                saksikan membuat yola bangga setaip hari.
+                masalah ending, dengan yola ataupun tidak,
+                semoga sayangku ini selalu bahagia,
+                dipertemukan dengan orang orang baik, dan
+                bisa menggapai semua mimpi mimpinya.
+            </p>
+
+            <p>
+                semoga di saat itu tiba, 
+                mas hari masih memilih yola sayang.
+            </p>
+
+
+            <p>
+                Happy Birthday,
+                my favorite person ♡
+            </p>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOR YOU PAGE
+     UPDATED: MEMORIES
+===================================================== -->
+
+<section
+    id="flowerPage"
+    class="detail-screen"
+>
+
+    <button class="back-button">
+        ←
+    </button>
+
+
+    <div class="detail-container">
+
+
+        <div class="small-title">
+            OUR MEMORIES
+        </div>
+
+
+        <h1>
+            Little Moments<br>
+            <span>Big Memories</span>
+        </h1>
+
+
+        <div class="memory-intro">
+            A collection of little moments<br>
+            that mean so much to me ♡
+        </div>
+
+
+        <!-- FOTO MEMORY -->
+
+        <div
+            class="memory-photo"
+            id="memoryTouchArea"
+        >
+
+            <img
+                id="memoryImage"
+                src="assets/memory1.jpeg"
+                alt="Our memory"
+            >
+
+        </div>
+
+
+        <!-- COUNTER -->
+
+        <div
+            id="memoryCounter"
+            class="memory-counter"
+        >
+            01 / 05
+        </div>
+
+
+        <!-- TITLE -->
+
+        <h2
+            id="memoryTitle"
+            class="memory-title"
+        >
+            Our First Memory
+        </h2>
+
+
+        <!-- STORY -->
+
+        <div class="memory-story">
+
+            <p id="memoryText">
+                Momen ini mungkin terlihat sederhana,
+                tapi buatku ini adalah salah satu momen
+                yang selalu ingin aku ingat.
+            </p>
+
+        </div>
+
+
+        <!-- NAVIGATION -->
+
+        <div class="memory-navigation">
+
+            <button
+                id="prevMemory"
+                class="memory-button"
+            >
+                ←
+            </button>
+
+
+            <span>
+                SWIPE / CLICK
+            </span>
+
+
+            <button
+                id="nextMemory"
+                class="memory-button"
+            >
+                →
+            </button>
+
+        </div>
+
+
+        <div class="memory-ending">
+            More moments,<br>
+            more stories,<br>
+            more memories with you ♡
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     INVITATION PAGE
+===================================================== -->
+
+<section
+    id="invitationPage"
+    class="detail-screen"
+>
+
+    <button class="back-button">
+        ←
+    </button>
+
+
+    <div class="detail-container">
+
+
+        <div class="small-title">
+            INVITATION
+        </div>
+
+
+        <h1>
+            You're<br>
+            <span>Invited</span>
+        </h1>
+
+
+        <div class="large-invitation">
+
+
+            <div class="ticket-ribbon">
+            </div>
+
+
+            <div class="ticket-inner">
+
+                <span>
+                    ♥
+                </span>
+
+
+                <h3>
+                    SPECIAL INVITATION
+                </h3>
+
+
+                <p>
+                    Just For You
+                </p>
+
+
+                <small>
+                    20 · 10 · 2026
+                </small>
+
+
+            </div>
+
+
+        </div>
+
+
+        <div class="invitation-description">
+
+
+            <p>
+                Mari rayakan hari istimewamu
+                dengan momen sederhana
+                tapi penuh makna.
+            </p>
+
+
+            <button
+                id="showRundown"
+                class="outline-button"
+            >
+                See The Details ♡
+            </button>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     RUNDOWN PAGE
+===================================================== -->
+
+<section
+    id="rundownPage"
+    class="detail-screen"
+>
+
+    <button class="back-button">
+        ←
+    </button>
+
+
+    <div class="detail-container">
+
+
+        <div class="small-title">
+            OUR SPECIAL DAY
+        </div>
+
+
+        <h1>
+            Birthday<br>
+            <span>Itinerary</span>
+        </h1>
+
+
+        <div class="rundown">
+
+
+            <div class="rundown-item">
+
+                <div class="rundown-time">
+                    07:30
+                </div>
+
+
+                <div class="rundown-info">
+
+                    <h3>
+                        I'll Pick U Up 🌷
+                    </h3>
+
+
+                    <p>
+                        yola jemput mas hari di btn.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="rundown-item">
+
+                <div class="rundown-time">
+                    08:00
+                </div>
+
+
+                <div class="rundown-info">
+
+                    <h3>
+                        Berangkat 🍽
+                    </h3>
+
+
+                    <p>
+                        Pakai motor mas hari apa yola?
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="rundown-item">
+
+                <div class="rundown-time">
+                    09:00
+                </div>
+
+
+                <div class="rundown-info">
+
+                    <h3>
+                        we'll arrive 
+                    </h3>
+
+
+                    <p>
+                        Sampai tempat mum
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="rundown-item">
+
+                <div class="rundown-time">
+                    DC
+                </div>
+
+
+                <div class="rundown-info">
+
+                    <h3>
+                        ATASAN NAVY
+                    </h3>
+
+
+                    <p>
+                        Mbol bisa pakai baju navy yang mbol biasa jadiin outer tu. Confirm yh gimana gimananya...
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     MUSIC BUTTON
+===================================================== -->
+
+<button
+    id="musicButton"
+    class="music-button"
+>
+    ♫
+</button>
+
+
+
+<!-- JAVASCRIPT -->
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
