@@ -5,7 +5,7 @@
 // TRUE = bisa langsung dites sekarang
 // FALSE = menunggu sampai 20 Oktober 2026
 
-const TEST_MODE = true;
+const TEST_MODE = false;
 
 
 // =====================================================
